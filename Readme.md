@@ -29,21 +29,7 @@ Retrieving the most relevant video chunks
 
 Generating context-aware answers using an LLM
 
-## Example Question:
 
-“NumPy broadcasting kis video aur kis timestamp par explain kiya gaya hai?”
-
-## basically (our MODEL AIM)=
-SUPPOSE  I log into my course, and basically what happens is that we have a lot of videos.
-Now let’s assume that I want to ask an AI (like ChatGPT) a question such as:
-“Where is NumPy Broadcasting taught?”
-If I directly ask ChatGPT this question, it will not be able to tell me, because ChatGPT does not have access to my course videos.
-And this is where Retrieval comes in — this is the brain of the system, which we call RAG (Retrieval-Augmented Generation).
-This is what makes the system intelligent.
-We have many videos and many lessons, and we need to feed this data smartly to the LLM in such a way that the LLM is able to understand what content is present where.
-This is an AI-based system where we can ask questions like:
-“In this course, where does NumPy Broadcasting start?”
-And the system will tell us in which video number NumPy Broadcasting is explained.
 
 # How to use this RAG AI Teaching assistant on your own data
 ## Step 1 - Collect your videos

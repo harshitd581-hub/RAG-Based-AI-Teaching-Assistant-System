@@ -1,5 +1,5 @@
 
-## basically (our MODEL AIM)=
+## basically (MY MODEL AIM)=
 SUPPOSE  I log into my course, and basically what happens is that we have a lot of videos.
 Now let’s assume that I want to ask an AI (like ChatGPT) a question such as:
 “Where is NumPy Broadcasting taught?”

@@ -49,3 +49,45 @@ Use the file preprocess_json to convert the json files to a dataframe with Embed
 Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM
 
 
+##### IN SHORT MY MODEL AIM AND HOW TO USE IT
+❓ Problem I Solved
+Courses me hundreds of videos hote hain.
+Agar hum AI se puchhein:
+“Numpy Broadcasting kis video me explain hua hai?”
+Normal ChatGPT fail ho jata hai, kyunki uske paas course ka context nahi hota.
+👉 Solution: Retrieval-Augmented Generation (RAG)
+🧠 What This Project Does
+✔️ Takes raw course videos (Hindi/English)
+✔️ Converts video ➝ audio ➝ text with timestamps
+✔️ Breaks transcripts into meaningful chunks
+✔️ Creates vector embeddings for semantic search
+✔️ Retrieves most relevant video chunks for a query
+✔️ Generates a context-aware answer using LLM
+So the AI knows what topic is where & in which video 🎯
+🛠️ Tech Stack & Pipeline
+Step-by-Step Architecture:
+1️⃣ Video ➝ Text using Whisper (OpenAI)
+2️⃣ Audio conversion using FFmpeg
+3️⃣ Timestamped transcription
+4️⃣ Intelligent chunking with metadata
+5️⃣ Embeddings generation for each chunk
+6️⃣ Vector similarity search
+7️⃣ RAG setup (Retriever + LLM)
+8️⃣ Final accurate answer from LLM
+🔍 Why This Project Matters
+✅ Solves a real educational problem
+✅ Shows end-to-end AI system design
+✅ Hands-on with LLMs, embeddings, vector search
+✅ Perfect example of production-ready RAG pipeline
+This is the kind of system used in:
+AI Tutors
+Internal Knowledge Assistants
+Company Training Bots
+EdTech platforms
+🎯 Key Learnings
+Why RAG > plain LLMs for private data
+Importance of chunking strategy
+How embeddings actually impact retrieval quality
+Building AI systems, not just running models
+
+
